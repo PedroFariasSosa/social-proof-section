@@ -1,61 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <title>Frontend Mentor | Social proof section</title>
+  <title>Frontend Mentor | Social proof section</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 10,000+ of our users love our products.
+</head>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!" -->
+<body>
+  <div class="contenedor">
+    <div class="contenedor__informacion">
+      <div class="informacion">
+        <h1 class="informacion__titulo">10,000+ of our users love our product.</h1>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/pedrofariassosa">Pedro Arturo Farias Santillan</a>.
+        <p class="informacion__parrafo">
+          We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.
+        </p>
+      </div>
     </div>
-  </body>
+
+    <div class="contenedor__puntuacion">
+      <div class="puntuacion">
+        <div class="puntuacion__star">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+        </div>
+        <h3 class="puntuacion__titulo">Rated 5 Stars in Reviews</h3>
+      </div>
+
+      <div class="puntuacion">
+        <div class="puntuacion__star">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+        </div>
+        <h3 class="puntuacion__titulo">Rated 5 Stars in Report Guru</h3>
+      </div>
+
+      <div class="puntuacion">
+        <div class="puntuacion__star">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+          <img class="puntuacion__star_margin" src="images/icon-star.svg" alt="Puntuación">
+        </div>
+        <h3 class="puntuacion__titulo">Rated 5 Stars in BestTech</h3>
+      </div>
+    </div>
+
+    <div class="contenedor__card">
+      <div class="card">
+        <img class="card__img" src="images/image-colton.jpg" alt="Imagen card">
+        <div class="card__textos">
+          <p class="card__name">Colton Smith</p>
+          <p class="card__puesto">Verified Buyer</p>
+        </div>
+        <div class="card__descripcion">
+          <small class="card__parrafo">
+            "We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"
+          </small>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card__img" src="images/image-irene.jpg" alt="Imagen card">
+        <div class="card__textos">
+          <p class="card__name">Irene Roberts</p>
+          <p class="card__puesto">Verified Buyer</p>
+        </div>
+        <div class="card__descripcion">
+          <small class="card__parrafo">
+            "Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."
+          </small>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card__img" src="images/image-anne.jpg" alt="Imagen card">
+        <div class="card__textos">
+          <p class="card__name">Anne Wallace</p>
+          <p class="card__puesto">Verified Buyer</p>
+        </div>
+        <div class="card__descripcion">
+          <small class="card__parrafo">
+            "Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"
+          </small>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/pedrofariassosa">Pedro Arturo Farias Santillan</a>.
+    </div> -->
+  </div>
+</body>
+
 </html>
