@@ -3,6 +3,7 @@
 ## Guia para poder descargar la plantilla
 
 > Link para que puedan verlo antes de descargarlo: https://pedrofariassosa.github.io/social-proof-section/
+
 * Necesita clonarlo (descargarlo) en la máquina local usando   
 ```
   $ git clone https://github.com/PedroFariasSosa/social-proof-section.git
